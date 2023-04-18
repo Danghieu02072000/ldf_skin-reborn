@@ -1,0 +1,75 @@
+@font-face {
+    font-family: Glyphicons;
+    src: url(../fonts/glyphicons-halflings-regular.woff);
+    src: url(../fonts/glyphicons-halflings-regular.woff2);
+    src: url(../fonts/glyphicons-halflings-regular.tft);
+    src: url(../fonts/glyphicons-halflings-regular.eot);
+}
+@font-face {
+    font-family: Helvetica;
+    src: url(../fonts/HelveticaNeue-Light.eot);
+    src: url(../fonts/HelveticaNeue-Light.ttf);
+    src: url(../fonts/HelveticaNeue-Light.woff);
+    src: url(../fonts/HelveticaNeue-Light.woff2);
+    font-weight: 300;
+}
+@font-face {
+    font-family: Helvetica;
+    src: url(../fonts/HelveticaNeue-Medium.eot);
+    src: url(../fonts/HelveticaNeue-Medium.ttf);
+    src: url(../fonts/HelveticaNeue-Medium.woff);
+    src: url(../fonts/HelveticaNeue-Medium.woff2);
+    font-weight: 500;
+}
+@font-face {
+    font-family: Helvetica;
+    src: url(../fonts/HelveticaNeue-Bold.eot);
+    src: url(../fonts/HelveticaNeue-Bold.ttf);
+    src: url(../fonts/HelveticaNeue-Bold.woff);
+    src: url(../fonts/HelveticaNeue-Bold.woff2);
+    font-weight: 700;
+}
+@font-face {
+    font-family: Ionicon;
+    src: url(../fonts/ionicons.eot);
+    src: url(../fonts/ionicons.ttf);
+    src: url(../fonts/ionicons.woff);
+}
+@font-face {
+    font-family: Roboto;
+    src: url(../fonts/Roboto-Medium.eot);
+    src: url(../fonts/Roboto-Medium.ttf);
+    src: url(../fonts/Roboto-Medium.woff);
+    src: url(../fonts/Roboto-Medium.woff2);
+    font-weight: 500;
+}
+@font-face {
+    font-family: Roboto;
+    src: url(../fonts/Roboto-Light.eot);
+    src: url(../fonts/Roboto-Light.ttf);
+    src: url(../fonts/Roboto-Light.woff);
+    src: url(../fonts/Roboto-Light.woff2);
+    font-weight: 300;
+}
+@font-face {
+    font-family: Roboto;
+    src: url(../fonts/Roboto-Bold.ttf);
+    src: url(../fonts/Roboto-Bold.eot);
+    src: url(../fonts/Roboto-Bold.woff);
+    src: url(../fonts/Roboto-Bold.woff2);
+    font-weight: 700;
+}
+@font-face {
+    font-family: SVN;
+    src: url(../fonts/SVN-Avo.et);
+    src: url(../fonts/SVN-Avo.ttf);
+    src: url(../fonts/SVN-Avo.woff);
+    src: url(../fonts/SVN-Avo.woff2);
+}
+@font-face {
+    font-family: HLT;
+    src: url(../fonts/HLTGioviale.eot);
+    src: url(../fonts/HLTGIOVIALE.TTF);
+    src: url(../fonts/HLTGioviale.woff);
+    src: url(../fonts/HLTGioviale.woff2);
+}

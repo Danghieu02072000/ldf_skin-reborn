@@ -1,0 +1,5 @@
+@import "./defaul/import.css";
+@import "./defaul/reset.css";
+@import "./defaul/global.css";
+@import "./defaul/variables.css";
+@import "./layouts/story.css"

@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'HLT Gioviale';
+    src: url('HLTGioviale.eot');
+    src: url('HLTGioviale.eot?#iefix') format('embedded-opentype'),
+        url('HLTGioviale.woff2') format('woff2'),
+        url('HLTGioviale.woff') format('woff'),
+        url('HLTGioviale.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
