@@ -29,7 +29,7 @@ body{
     background-color: var(--primary-color);
     color: #fff;
     border: 1px solid var(--primary-color);
-    border-radius: 2px;
+    border-radius: 3px;
     font-family: Helvetica;
     font-weight: 500;
     text-transform: uppercase;
@@ -42,7 +42,20 @@ body{
 }
 h2{
     font-family: var(--font-heading);
+    font-size: 70px;
+}
+.heading__title{
+    font-family: var(--font-heading);
     color: var(--secon-color);
     font-weight: lighter;
     font-size: 70px;
+}
+.heading__desc{
+    font-size: 20px;
+    font-family: var(--font-body);
+}
+.line-red{
+    width: 120px;
+    height: 3px;
+    background-color: var(--primary-color);
 }

@@ -1,0 +1,43 @@
+.contact__heading .line-red{
+    margin: 30px auto;
+}
+.contact__heading {
+    text-align: center;
+}
+.ss-contact {
+    padding: 65px 0 150px;
+}
+.contact__content {
+    display: flex;
+    gap: 30px;
+}
+.contact__media {
+    width: 50%;
+}
+.contact__register {
+    width: 45%;
+}
+.form-register {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.form__input {
+    height: 45px;
+    border: 1px solid #e6e6e6;
+    border-radius: 5px;
+    padding-left: 20px;
+}
+.form__input:focus-visible{
+    outline-color: #abc3f1;
+    outline-style: auto;
+    outline-width: 1px;
+}
+.form__text {
+    margin-top: 20px;
+    text-align: center;
+}
+.form-register button {
+    width: 35%;
+    margin: 0 auto;
+}

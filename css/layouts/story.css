@@ -3,18 +3,10 @@
     background-image: url(../../images/img_story.png);
     padding: 60px 50% 60px 0;
 }
-.story__title{
+.story__heading{
     padding-bottom: 20px;
 }
 
-.story__title span{
-    font-size: 20px;
-}
-.line__red{
-    width: 120px;
-    height: 3px;
-    background-color: var(--primary-color);
-}
 .story__desc    {
     padding-top: 35px;
     color: var(--p-color);

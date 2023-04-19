@@ -1,11 +1,10 @@
-.product__heading h2 {
+.product__heading {
     text-align: center;
 }
-.product__heading span {
-    text-align: center;
+.product__heading {
     display: block;
 }
-.ss-product .line__red{
+.ss-product .line-red{
     margin: 30px auto;
 }
 .product__list {
