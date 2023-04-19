@@ -76,6 +76,7 @@
 .box__item:nth-child(3){
     background-image: url("../../images/bgr_3.png");
     background-repeat: no-repeat;
+    background-size: cover;
 }
 .item__text {
     display: inline-block;

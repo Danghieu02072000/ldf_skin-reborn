@@ -1,0 +1,127 @@
+@media (max-width:480px) {
+    /* Start Global */
+    h2{
+        font-size: 50px;
+    }
+    .heading__title{
+        font-size: 50px;
+    }
+    .heading__desc{
+        font-size: 16px;
+    }
+    .line-red {
+        margin: 10px auto;
+    }
+    .container {
+        width: 98%;
+        padding: 0 20px;
+    }
+    /* End Global */
+    /* Start Header */
+    .header__pc {
+        display: none;
+    }
+    /* End Header */
+
+    /* Start Banner */
+    .banner__content {
+        height: auto;
+    }
+    /* End Banner */
+
+    /* Start Story */
+    .story-main {
+        padding: 0;
+    }
+    .story__heading {
+        text-align: center;
+    }
+    /* End Story */
+
+    /* Start Recipe */
+    .recipe__heading .line-red {
+        margin-bottom: 30px;
+    }
+    .recipe__content {
+        background-image: none;
+        height: auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .recipe__item {
+        position: unset;
+        padding: 10px 0;
+    }
+    .recipe__box {
+        flex-direction: column;
+        margin: auto;
+        padding: 40px 0;
+    }
+    .box__item {
+        width: 100%;
+    }
+    .ss-recipe .container {
+        width: 380px;
+    }
+    /* End Recipe */
+
+    /* Start product */
+    .ss-product .line-red {
+        margin-top: 10px;
+    }
+    .product__list {
+        flex-direction: column;
+        gap: 40px;
+    }
+    .item-bottom__title {
+        padding-bottom: 8px;
+    }
+    .item-bottom__desc {
+        padding-bottom: 8px;
+    }
+    /* End product */
+
+    /* Start Contact */
+    .ss-contact {
+        background-image: none;
+        padding: 65px 0;
+    }
+    .contact__content {
+        flex-direction: column;
+    }
+    .contact__media {
+        width: 100%;
+        height: 250px;
+    }
+    .contact__register {
+        width: 100%;
+    }
+    .form-register button {
+        width: 45%;
+    }
+    .form__text {
+        font-weight: lighter;
+    }
+    .ss-contact .container {
+        width: 100%;
+        padding: 0 15px;
+        max-width: unset;
+    }
+    /* End Contact */
+    /* Start Footer */
+    .footer-main {
+        background-size: cover;
+        background-position: center;
+    }
+    .footer__container {
+        flex-direction: column;
+    }
+    .footer__address {
+        flex-direction: column;
+    }
+    .address__item {
+        text-align: center;
+    }
+    /* End Footer */
+}
