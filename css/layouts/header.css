@@ -1,0 +1,64 @@
+.header-main {
+    position: sticky;
+    top:0;
+    left:0;
+    right:0;
+    z-index: 999;
+}
+.header__pc-top {
+    background-color: var(--primary-color);
+}
+.header__top-main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 35px;
+}
+.header__phone {
+    display: flex;
+    gap: 10px;
+}
+.header__phone .phone_number {
+    color: #fff;
+    font-weight: lighter;
+    font-size: 14px;
+}
+.header__socal {
+    display: flex;
+    gap:15px;
+    align-items: center;
+}
+.header__pc-nav {
+    background-color: #fff;
+}
+.header__pc-logo {
+    height: 95px;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.header__pc-container {
+    display: flex;
+    justify-content: space-between;
+}
+.header__pc-content {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+.header__list {
+    display: flex;
+    gap: 20px;
+}
+.header__link {
+    display: inline-block;
+    font-size: 15px;
+    font-weight: 500;
+    padding: 8px 25px;
+    border-radius: 15px;
+    border: 1px solid #fff;
+    text-transform: uppercase;
+}
+.header__link:hover {
+    border-color: #a5a5a6;
+}

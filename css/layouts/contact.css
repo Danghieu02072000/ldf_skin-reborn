@@ -6,6 +6,9 @@
 }
 .ss-contact {
     padding: 65px 0 150px;
+    background-image: url("../../images/bgr_contact.png");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .contact__content {
     display: flex;

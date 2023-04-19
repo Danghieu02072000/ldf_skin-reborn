@@ -2,6 +2,8 @@
 @import "./defaul/reset.css";
 @import "./defaul/global.css";
 @import "./defaul/variables.css";
+@import "./layouts/header.css";
+@import "./layouts/banner.css";
 @import "./layouts/story.css";
 @import "./layouts/recipe.css";
 @import "./layouts/product.css";
