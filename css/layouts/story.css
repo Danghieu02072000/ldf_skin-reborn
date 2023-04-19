@@ -1,6 +1,8 @@
 
 .story-main{
     background-image: url(../../images/img_story.png);
+    background-repeat: no-repeat;
+    background-size: cover;
     padding: 60px 50% 60px 0;
 }
 .story__heading{
