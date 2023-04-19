@@ -6,14 +6,8 @@
 .story__title{
     padding-bottom: 20px;
 }
-.story__title h2{
-    font-family: HLT;
-    font-size: 70px;
-    color: var(--secon-color);
-    font-weight: lighter;
-}
+
 .story__title span{
-    font-family: Helvetica;
     font-size: 20px;
 }
 .line__red{
@@ -22,7 +16,6 @@
     background-color: var(--primary-color);
 }
 .story__desc    {
-    font-family: Helvetica;
     padding-top: 35px;
     color: var(--p-color);
 }

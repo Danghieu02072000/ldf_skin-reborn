@@ -2,4 +2,5 @@
 @import "./defaul/reset.css";
 @import "./defaul/global.css";
 @import "./defaul/variables.css";
-@import "./layouts/story.css"
+@import "./layouts/story.css";
+@import "./layouts/product.css";

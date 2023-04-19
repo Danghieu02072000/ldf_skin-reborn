@@ -9,10 +9,13 @@
     --blue--color: #617de6;
     --p-color: #939292;
     --heading-color: #9c9c9c;
+    --font-body: 'Helvetica', Arial , Helvetica, sans-serif;
+    --font-heading: HLT;
+    --font-number: SVN;
 }
 body{
     font-size: 14px;
-    font-family: Helvetica;
+    font-family: var(--font-body);
 }
 .wrapper{
     width: 100%;
@@ -30,9 +33,16 @@ body{
     font-family: Helvetica;
     font-weight: 500;
     text-transform: uppercase;
-    padding: 5px 20px;
+    padding: 12px 28px;
+    display: inline-block;
 }
 .img_respon{
     max-width: 100%;
     height: auto;
+}
+h2{
+    font-family: var(--font-heading);
+    color: var(--secon-color);
+    font-weight: lighter;
+    font-size: 70px;
 }
