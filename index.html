@@ -54,13 +54,44 @@
                         </div>
                     </div>
                 </div>
-                <div class="header__nav">
+                <div class="header__mobie">
+                    <div class="header__mobie-container">
+                        <div class="container">
+                            <div class="header-mobile__top">
+                                <img src="./imgs/icon_menu.png" alt="" id="mobile_menu">
+                                <img src="./imgs/icon_logo-mobile.png" alt="">
+                                <img src="./imgs/icon_pamas-mobile.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="header__mobie-container2" id="header-nav__link">
+                        <div class="container">
+                            <ul class="header-mobile__list">
+                                <li class="header-mobile__item">
+                                    <a href="#ss-banner" class="header-mobile__link">Home</a>
+                                </li>
+                                <li class="header-mobile__item">
+                                    <a href="#ss-story" class="header-mobile__link">Story</a>
+                                </li>
+                                <li class="header-mobile__item">
+                                    <a href="#ss-recipe" class="header-mobile__link">Công dụng</a>
+                                </li>
+                                <li class="header-mobile__item">
+                                    <a href="#ss-product" class="header-mobile__link">Ưu đãi</a>
+                                </li>
+                                <li class="header-mobile__item">
+                                    <a href="#ss-contact" class="header-mobile__link">Đăng ký</a>
+                                </li>
+                        </ul>
+                        </div>
+                    </div>
                 </div>
         </header>
         <section class="content-main">
             <section class="ss-banner" id="ss-banner">
                 <div class="banner__content">
                     <img src="./images/img_baner.png" alt="" class="img_respon">
+                    <img src="./images/img_banner-mobile.png" alt="" class="img_respon">
                 </div>
             </section>
             <section class="ss-story" id="ss-story">
@@ -73,6 +104,7 @@
                                 </span>
                             </div>
                             <div class="line-red"></div>
+                            
                             <div class="story__desc">
                                 <p>Trước thế chiến II, toàn Châu Âu vẫn đang chìm ngập trong dư âm của chiến tranh. Làm đẹp vẫn đang là một khái niệm xa xỉ với rất nhiều người, hàng triệu phụ nữ phải đối mặt với các vấn đề về làn da như Nám, Sẹo, Mụn, Lão hóa…</p>
                                 <p>Một phụ nữ mang tên Jane Barret đã miệt mài tìm ra một công thức điều trị tất cả các vấn đề về làn da, công thức này được ví như một Điều kỳ diệu cho làn da, một phép màu giúp tái tạo và phục hồi da với thời gian và hiệu quả mà không một giải pháp nào có thể sánh kịp. </p>
@@ -96,37 +128,37 @@
                     <div class="recipe__content">
                         <a href="" class="recipe__item">
                             <div class="recipe__img">
-                                <img src="./images/img_1.png" alt="">
+                                <img src="./images/img_1.png" alt="" class="img_max">
                             </div>
                             <h4>Trị nám / Tàn nhang</h4>
                         </a>
                         <a href="" class="recipe__item">
                             <div class="recipe__img">
-                                <img src="./images/img_2.png" alt="">
+                                <img src="./images/img_2.png" alt="" class="img_max">
                             </div>
                             <h4>Trị mụn trứng cá, mụn thịt</h4>
                         </a>
                         <a href="" class="recipe__item">
                             <div class="recipe__img">
-                                <img src="./images/img_3.png" alt="">
+                                <img src="./images/img_3.png" alt="" class="img_max">
                             </div>
                             <h4>Trị sẹo rỗ, sẹo lồi, sẹo thâm</h4>
                         </a>
                         <a href="" class="recipe__item">
                             <div class="recipe__img">
-                                <img src="./images/img_4.png" alt="">
+                                <img src="./images/img_4.png" alt="" class="img_max">
                             </div>
                             <h4>Trẻ hóa, làm mờ vết nhăn</h4>
                         </a>
                         <a href="" class="recipe__item">
                             <div class="recipe__img">
-                                <img src="./images/img_5.png" alt="">
+                                <img src="./images/img_5.png" alt="" class="img_max">
                             </div>
                             <h4>Trắng da, Mờ thâm, thu lỗ chân lông</h4>
                         </a>
                         <a href="" class="recipe__item">
                             <div class="recipe__img">
-                                <img src="./images/img_6.png" alt="">
+                                <img src="./images/img_6.png" alt="" class="img_max">
                             </div>
                             <h4>Trị nám rạn da</h4>
                         </a>
@@ -134,7 +166,7 @@
                     <div class="recipe__box">
                         <div class="box__item">
                             <div class="item_img">
-                                <img src="./imgs/icon_1.png" alt="">
+                                <img src="./imgs/icon_1.png" alt="" >
                             </div>
                             <h3 class="item__text">
                                 Thực hiện 1 lần duy nhất
@@ -302,7 +334,7 @@
                                 <input type="text" class="form__input"placeholder="Email *">
                                 <input type="text" class="form__input" placeholder="Dịch vụ quan tâm *">
                                 <span class="form__text">Chương trình áp dụng cho 100 khách hàng đăng ký sớm nhất</span>
-                                <button class="btn--primary">Đăng ký ngay</button>
+                                <button class="btn--primary btn__regist">Đăng ký ngay</button>
                             </form>
                         </div>
                     </div>
@@ -350,5 +382,6 @@
             </div>
         </footer>
     </div>
+    <script src="./js/content.js"></script>
 </body>
 </html>

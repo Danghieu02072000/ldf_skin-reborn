@@ -1,4 +1,7 @@
 
+.ss-story {
+    padding-bottom: 40px;
+}
 .story-main{
     background-image: url(../../images/img_story.png);
     background-repeat: no-repeat;

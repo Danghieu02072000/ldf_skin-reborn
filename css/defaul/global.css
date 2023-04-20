@@ -60,3 +60,9 @@ h2{
     height: 3px;
     background-color: var(--primary-color);
 }
+.btn--primary:hover , .btn--primary:active {
+    box-shadow: 2px 5px 15px var(--primary-color);
+}
+.img_max {
+    width: 100%;
+}

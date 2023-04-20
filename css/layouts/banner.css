@@ -1,3 +1,9 @@
 .banner__content {
     height: auto;
 }
+.banner__content img:nth-child(2) {
+    display: none;
+}
+.ss-banner {
+    padding-bottom: 40px;
+}

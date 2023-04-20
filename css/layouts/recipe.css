@@ -14,6 +14,7 @@
     background-image: url(../../images/bg-skin.jpg);
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: center;
 }
 .recipe__item {
     width: 165px;
