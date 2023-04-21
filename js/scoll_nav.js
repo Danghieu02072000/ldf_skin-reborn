@@ -8,13 +8,33 @@ window.onscroll = () => {
     const sectionTop = section.offsetTop;
     if (pageYOffset >= sectionTop - 60) {
       current = section.getAttribute("id"); }
-      console.log(current);
   });
 
   navLi.forEach((li) => {
     li.classList.remove("active");
     if (li.classList.contains(current)) {
       li.classList.add("active");
+    }
+  });
+};
+//mobile
+const sections1 = document.querySelectorAll("section");
+const navLi1 = document.querySelectorAll(".header-mobile__list li a");
+window.onscroll = () => {
+  var current = "";
+
+  sections.forEach((section) => {
+    var pageYOffset = window.scrollY;
+    const sectionTop = section.offsetTop;
+    if (pageYOffset >= sectionTop - 60) {
+      current = section.getAttribute("id"); }
+      console.log(current);
+  });
+
+  navLi1.forEach((li) => {
+    li.classList.remove("active1");
+    if (li.classList.contains(current)) {
+      li.classList.add("active1");
     }
   });
 };

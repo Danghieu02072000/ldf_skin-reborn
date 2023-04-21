@@ -69,3 +69,6 @@ h2{
 .active {
     border-color: #a5a5a6 !important; 
 }
+.active1 {
+    color: var(--primary-color);
+}
