@@ -44,3 +44,9 @@
     width: 33%;
     margin: 0 auto;
 }
+.form__input::placeholder {
+    font-style: italic;
+    font-size: 13px;
+    font-weight: lighter;
+    color: #b9b9b9;
+}

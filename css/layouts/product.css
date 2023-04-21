@@ -31,7 +31,10 @@
     margin-bottom: 15px;
 }
 .item-bottom__title {
-    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
     padding-bottom: 15px;
     font-weight: bold;
     font-size: 15px;

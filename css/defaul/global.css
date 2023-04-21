@@ -66,3 +66,6 @@ h2{
 .img_max {
     width: 100%;
 }
+.active {
+    border-color: #a5a5a6 !important; 
+}

@@ -4,7 +4,7 @@
     left:0;
     right:0;
     z-index: 999;
-    border-bottom: 1px solid var(--primary-color);
+    border-bottom: 2px solid var(--primary-color);
 }
 .header__pc-top {
     background-color: var(--primary-color);
@@ -92,4 +92,16 @@
 }
 .header-mobile__item:hover, .header-mobile__item:active {
     color: var(--primary-color)
+}
+.header_pc-fix {
+    display: none;
+}
+.header__logo-fix {
+    height: auto;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.header__logo-fix img {
+    height: 70%;
 }
